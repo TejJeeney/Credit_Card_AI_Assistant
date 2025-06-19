@@ -1,89 +1,99 @@
 # 💳 Credit Card Advisor (AI-Powered)
-
-This is an intelligent credit card recommendation system built with **Flask** and powered by **OpenAI's GPT-3.5** API. It provides smart, personalized credit card suggestions based on a user's income, spending habits, and preferred benefits.
+This is a web-based, conversational AI project that recommends the best Indian credit cards for users based on their income, spending habits, and preferred benefits. 
 
 ---
 
 ## 🚀 Features
 
-- ✨ AI-powered credit card recommendations using GPT
-- 📊 Custom inputs: monthly income, spend, and benefit preferences
-- 🎨 Clean dark-themed UI (GitHub style)
-- ⚡ Fast, simple Flask backend
-- 🔒 Secure `.env` for storing your API key
+- 🔍 Conversational Agent (LLM-based)
+- 💰 Credit Card Matching Engine
+- 📊 Reward Simulation (e.g., Rs. 8,000/year cashback)
+- 💡 User Preferences: Income, Spend, Perks
+- 📱 Mobile Responsive UI (HTML/CSS/JS)
+- 🧠 Built with Flask, LangChain, and OpenAI
 
 ---
 
 ## 🛠️ Tech Stack
 
-- Python 3.x
-- Flask
-- OpenAI API (GPT-3.5)
-- HTML, CSS, JavaScript
-- Bootstrap (optional for styling)
+| Layer        | Tools Used                       |
+|--------------|-----------------------------------|
+| Backend      | Python, Flask, LangChain, OpenAI |
+| Frontend     | HTML, CSS, JavaScript            |
+| Data         | `cards.json` (20+ Indian cards)  |
 
 ---
 
-## 📦 Setup Instructions
+## 🧩 Folder Structure
 
-### 1. Clone the repository
+```
+credit_card_advisor/
+├── app/                  # Backend logic
+│   ├── main.py
+│   ├── cards.json
+├── static/               # CSS and JS files
+│   ├── styles.css
+│   └── script.js
+├── templates/            # Frontend HTML
+│   └── index.html
+├── requirements.txt      # Dependencies
+├── README.md             # Project description
+```
 
+---
+
+## 📦 How to Run Locally
+
+### 1. Clone the repo
 ```bash
-git clone https://github.com/TejJeeney/credit-card-advisor.git
+git clone https://github.com/TejJeeney/Credit_Card-Advisor.git ///(.git- dd additionally)///
 cd credit-card-advisor
 ```
 
-2. Create and activate virtual environment
+### 2. Create virtual environment and install dependencies
+```bash
+python -m venv venv
+venv\Scripts\activate
+pip install -r requirements.txt  (few dependencies to installed on the go like dotenv)
+```
 
-python -m venv ccenv
-ccenv\Scripts\activate  # For Windows
-
-3. Install required packages
-
-pip install -r requirements.txt
-
-4. Add your OpenAI API key
-
-Create a .env file in the root folder and add:
-
-OPENAI_API_KEY=sk-xxxxxxxxxxxxxxxxxxxxxxxxxxxxx
-
-    🔒 Keep this file secret and don’t upload it to GitHub.
-
-
-
-▶️ Run the Application
-
+### 3. Run the backend
+```bash
 cd app
 python main.py
+```
 
-Open your browser and go to:
+### 4. Open in browser
+Visit [http://127.0.0.1:5000](http://127.0.0.1:5000)
+***any other link if encountered do chck the files once again*** | Most commom error encountered by me.
+---
 
-http://127.0.0.1:5000
-
-
-🧠 How It Works
-
-    User submits monthly income, spend, and benefit preferences
-
-    Backend creates a GPT prompt with this data
-
-    GPT-3.5 generates JSON recommendations
-
-    Frontend displays the AI’s recommendations
-
+## 🧪 Test Inputs
+Example:
+- Income: `65000`
+- Spend: `15000`
+- Benefits: `cashback, lounge access`
 
 ---
 
-### ✅ How to Use
+## 📸 Screenshots / Demo (Add Here)
+![Screenshot](demo.png)
 
-1. Copy the entire block above ⬆️
-2. Open your project folder
-3. Create a file named `README.md`
-4. Paste this content into it
-5. Save and run:
+---
 
+## 📝 Future Improvements
+- ✅ Add user login system
+- ✅ WhatsApp Integration via Twilio
+- ✅ Admin Panel for card management
+- ✅ Filter cards by banks or categories...
+- and more as i work on it.
 
-## 👤 Author
+---
 
-Made with ❤️ by **Tejasva Gairi**
+## 👨‍💻 Author
+**Tejasva Gairi** | [GitHub](https://github.com/TejJeeney)
+**It started as a project submission but now i will try to make it as awesome as i can***
+---
+
+## 📜 License
+MIT License
