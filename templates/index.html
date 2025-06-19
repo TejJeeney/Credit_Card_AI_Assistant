@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Credit Card Advisor</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+</head>
+<body>
+
+  <h2>💳 Credit Card Advisor</h2>
+  <p class="description">
+    Get personalized credit card recommendations based on your income, spend & benefits.
+  </p>
+
+  <form id="advisor-form">
+    <label for="income">Monthly Income</label>
+    <input type="number" id="income" name="income" placeholder="e.g. 50000" required>
+
+    <label for="spend">Monthly Spend</label>
+    <input type="number" id="spend" name="spend" placeholder="e.g. 15000" required>
+
+    <label for="benefits">Preferred Benefits (comma separated)</label>
+    <input type="text" id="benefits" name="benefits" placeholder="e.g. cashback, lounge access" required>
+
+    <button type="submit">Get Recommendations</button>
+  </form>
+
+  <div id="results"></div>
+
+<footer>
+  <p class="footer-text">
+    Created by <a href="https://github.com/TejJeeney" target="_blank" rel="noopener noreferrer" class="hover-highlight">Tejasva Gairi</a>
+ • Powered by <strong>AI</strong>
+  </p>
+</footer>
+
+
+  <script src="{{ url_for('static', filename='script.js') }}"></script>
+</body>
+</html>

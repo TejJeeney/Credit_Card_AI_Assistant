@@ -1,0 +1,167 @@
+[
+  {
+    "name": "HDFC Regalia First",
+    "issuer": "HDFC Bank",
+    "joining_fee": 1000,
+    "annual_fee": 1000,
+    "reward_rate": 0.02,
+    "eligibility": "Income > Rs. 50k/month",
+    "perks": ["Lounge access", "Dining offers"],
+    "apply_link": "#",
+    "image": "regalia_first.png"
+  },
+  {
+    "name": "HDFC Regalia",
+    "issuer": "HDFC Bank",
+    "joining_fee": 2500,
+    "annual_fee": 2500,
+    "reward_rate": 0.015,
+    "eligibility": "Income > Rs. 100k/month",
+    "perks": ["Lounge access", "Dining offers"],
+    "apply_link": "#",
+    "image": "regalia.png"
+  },
+  {
+    "name": "SBI SimplySAVE",
+    "issuer": "SBI",
+    "joining_fee": 499,
+    "annual_fee": 499,
+    "reward_rate": 0.01,
+    "eligibility": "Income > Rs. 25k/month",
+    "perks": ["Fuel surcharge waiver", "Movie cashback"],
+    "apply_link": "#",
+    "image": "simplysave.png"
+  },
+  {
+    "name": "ICICI Amazon Pay",
+    "issuer": "ICICI Bank",
+    "joining_fee": 0,
+    "annual_fee": 0,
+    "reward_rate": 0.02,
+    "eligibility": "Income > Rs. 25k/month",
+    "perks": ["Amazon cashback", "Shopping discounts", "Cashback"],
+    "apply_link": "#",
+    "image": "amazon_pay.png"
+  },
+  {
+    "name": "Axis Flipkart",
+    "issuer": "Axis Bank",
+    "joining_fee": 500,
+    "annual_fee": 500,
+    "reward_rate": 0.02,
+    "eligibility": "Income > Rs. 30k/month",
+    "perks": ["Flipkart cashback", "Shopping discounts"],
+    "apply_link": "#",
+    "image": "flipkart.png"
+  },
+  {
+    "name": "Citibank Rewards",
+    "issuer": "Citibank",
+    "joining_fee": 1000,
+    "annual_fee": 1000,
+    "reward_rate": 0.01,
+    "eligibility": "Income > Rs. 50k/month",
+    "perks": ["Reward points", "Dining offers"],
+    "apply_link": "#",
+    "image": "rewards.png"
+  },
+  {
+    "name": "Standard Chartered Manhattan",
+    "issuer": "Standard Chartered",
+    "joining_fee": 999,
+    "annual_fee": 999,
+    "reward_rate": 0.02,
+    "eligibility": "Income > Rs. 65k/month",
+    "perks": ["Cashback", "Dining offers"],
+    "apply_link": "#",
+    "image": "manhattan.png"
+  },
+  {
+    "name": "Kotak Mahindra PVR",
+    "issuer": "Kotak Mahindra Bank",
+    "joining_fee": 750,
+    "annual_fee": 750,
+    "reward_rate": 0.015,
+    "eligibility": "Income > Rs. 20k/month",
+    "perks": ["PVR movie tickets", "Dining offers"],
+    "apply_link": "#",
+    "image": "pvr.png"
+  },
+  {
+    "name": "RBL Bank Platinum",
+    "issuer": "RBL Bank",
+    "joining_fee": 499,
+    "annual_fee": 499,
+    "reward_rate": 0.01,
+    "eligibility": "Income > Rs. 19k/month",
+    "perks": ["Reward points", "Dining offers"],
+    "apply_link": "#",
+    "image": "platinum.png"
+  },
+  {
+    "name": "Yes Bank Cashback",
+    "issuer": "Yes Bank",
+    "joining_fee": 0,
+    "annual_fee": 0,
+    "reward_rate": 0.02,
+    "eligibility": "Income > Rs. 30k/month",
+    "perks": ["Cashback", "Shopping discounts"],
+    "apply_link": "#",
+    "image": "yes_bank.png"
+  },
+  {
+    "name": "IndusInd Bank Platinum",
+    "issuer": "IndusInd Bank",
+    "joining_fee": 999,
+    "annual_fee": 999,
+    "reward_rate": 0.015,
+    "eligibility": "Income > Rs. 35k/month",
+    "perks": ["Reward points", "Dining offers"],
+    "apply_link": "#",
+    "image": "indusind.png"
+  },
+  {
+    "name": "Bank of Baroda Rewards",
+    "issuer": "Bank of Baroda",
+    "joining_fee": 0,
+    "annual_fee": 0,
+    "reward_rate": 0.01,
+    "eligibility": "Income > Rs. 20k/month",
+    "perks": ["Reward points", "Shopping discounts"],
+    "apply_link": "#",
+    "image": "bob_rewards.png"
+  },
+  {
+    "name": "Union Bank Cashback",
+    "issuer": "Union Bank of India",
+    "joining_fee": 0,
+    "annual_fee": 0,
+    "reward_rate": 0.02,
+    "eligibility": "Income > Rs. 25k/month",
+    "perks": ["Cashback", "Shopping discounts"],
+    "apply_link": "#",
+    "image": "union_bank.png"
+  },
+  {
+    "name": "PNB Platinum",
+    "issuer": "Punjab National Bank",
+    "joining_fee": 499,
+    "annual_fee": 499,
+    "reward_rate": 0.015,
+    "eligibility": "Income > Rs. 15k/month",
+    "perks": ["Reward points", "Dining offers"],
+    "apply_link": "#",
+    "image": "pnb_platinum.png"
+  },
+  {
+    "name": "Canara Bank Cashback",
+    "issuer": "Canara Bank",
+    "joining_fee": 0,
+    "annual_fee": 0,
+    "reward_rate": 0.02,
+    "eligibility": "Income > Rs. 20k/month",
+    "perks": ["Cashback", "Shopping discounts"],
+    "apply_link": "#",
+    "image": "canara_cashback.png"
+  }
+]

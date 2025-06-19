@@ -1,0 +1,124 @@
+/* Dark Theme Layout */
+body {
+  font-family: 'Segoe UI', Tahoma, sans-serif;
+  background-color: #0d1117;
+  color: #c9d1d9;
+  padding: 40px 20px;
+  max-width: 700px;
+  margin: auto;
+  line-height: 1.6;
+}
+
+/* Header */
+h2 {
+  text-align: center;
+  color: #58a6ff;
+  margin-bottom: 10px;
+}
+
+.description {
+  text-align: center;
+  color: #8b949e;
+  font-size: 14px;
+  margin-bottom: 25px;
+}
+
+/* Form Styling */
+form {
+  background: #161b22;
+  padding: 25px;
+  border-radius: 10px;
+  box-shadow: 0 0 0 1px #21262d;
+  margin-bottom: 30px;
+}
+
+form label {
+  display: block;
+  font-weight: 600;
+  margin-top: 10px;
+  margin-bottom: 5px;
+  color: #c9d1d9;
+}
+
+form input {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 15px;
+  border: 1px solid #30363d;
+  background: #0d1117;
+  color: #c9d1d9;
+  border-radius: 6px;
+}
+
+form input:focus {
+  border-color: #58a6ff;
+  outline: none;
+}
+
+form button {
+  background-color: #238636;
+  color: white;
+  border: none;
+  padding: 12px;
+  font-size: 16px;
+  border-radius: 6px;
+  cursor: pointer;
+  width: 100%;
+  font-weight: bold;
+  transition: background 0.3s ease;
+}
+
+form button:hover {
+  background-color: #2ea043;
+}
+
+/* Card Styles */
+#results {
+  margin-top: 20px;
+}
+
+#results .card {
+  background: #161b22;
+  border-left: 4px solid #58a6ff;
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(255, 255, 255, 0.05);
+}
+
+#results h3 {
+  margin-top: 0;
+  color: #79c0ff;
+  font-size: 20px;
+}
+
+#results ul {
+  padding-left: 20px;
+  margin: 8px 0 0 0;
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  color: #8b949e;  
+  margin-top: 50px;
+  font-size: 14px;
+  padding: 15px 0;
+  border-top: 1px solid #21262d;
+}
+
+.footer-text strong {
+  color: #c9d1d9;  
+}
+
+.hover-highlight {
+  color: #c9d1d9;
+  text-decoration: none;
+  font-weight: bold;
+  transition: color 0.3s, text-shadow 0.3s ease-in-out;
+}
+
+.hover-highlight:hover {
+  color: #58a6ff;
+  text-shadow: 0 0 5px #58a6ff, 0 0 10px #58a6ff;
+}
