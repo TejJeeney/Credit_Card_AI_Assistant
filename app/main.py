@@ -1,13 +1,13 @@
-# # from flask import Flask, render_template, request, jsonify
-# # from flask_cors import CORS
-# # import os
-# # import json
-# # import re
 
-# from flask import Flask, render_template, request, jsonify
-# from flask_cors import CORS
-# import os, json, re
+from flask import Flask, render_template, request, jsonify
+from flask_cors import CORS
+from openai import OpenAI, RateLimitError
+from dotenv import load_dotenv
+import os
+import re
+import json
 
+# THE FILE HERE IS FOR LOCAL RECOMMENDATION OF CARDS.
 # BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 # TEMPLATES_DIR = os.path.abspath(os.path.join(BASE_DIR, '..', 'templates'))
 # STATIC_DIR = os.path.abspath(os.path.join(BASE_DIR, '..', 'static'))
@@ -73,28 +73,17 @@
 #         })
 #     return jsonify(result)
 
-# if __name__ == '__main__':
-#     app.run(debug=True)
 
-
-from flask import Flask, render_template, request, jsonify
-from flask_cors import CORS
-from openai import OpenAI, RateLimitError
-from dotenv import load_dotenv
-import os
-
-# Load API key from .env
+# Uses the API key and uses the integrted OPENAI model to use. 
+# AI-Credits will be required to use the Integrated AI in the predictor. 
 load_dotenv()
 OPENAI_API_KEY = os.getenv("OPENAI_API_KEY")
 
-# Check for key
 if not OPENAI_API_KEY:
     raise ValueError("❌ No OPENAI_API_KEY found in .env file")
 
-# Initialize OpenAI client
 client = OpenAI(api_key=OPENAI_API_KEY)
 
-# Flask app setup
 app = Flask(__name__, template_folder='../templates', static_folder='../static')
 CORS(app)
 
