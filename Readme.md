@@ -36,7 +36,9 @@ credit_card_advisor/
 │   └── script.js
 ├── templates/            # Frontend HTML
 │   └── index.html
-├── requirements.txt      # Dependencies
+├── requirements.txt
+├── .env
+├── .gitignore
 ├── README.md             # Project description
 ```
 
