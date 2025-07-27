@@ -50,6 +50,11 @@ credit_card_advisor/
 ```bash
 git clone https://github.com/TejJeeney/Credit_Card-Advisor.git ///(.git- dd additionally)///
 cd credit-card-advisor
+git add .
+```
+
+```bash
+The clone has to be done at the agile at the begenning at the start tif the tarrifs athat were exhausted.
 ```
 
 ### 2. Create virtual environment and install dependencies
